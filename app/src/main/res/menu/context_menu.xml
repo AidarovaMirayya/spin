@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/context_settings"
+        android:title="File">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item android:id="@+id/create_option"
+                android:title="Create" >
+                <menu>
+                    <item android:title="New directory"/>
+                    <item android:title="New project"/>
+                    <item android:title="New file"/>
+                    <item android:title="New activity"/>
+                </menu>
+            </item>
+            <item android:id="@+id/open_option"
+                android:title="Open" />
+        </menu>
+    </item>
+</menu>

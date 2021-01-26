@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".menu_activities.MainActivity"
+    android:orientation="vertical"
+    android:background="#669933">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+
+        <Button
+            android:id="@+id/btn_menu1"
+            style="@style/menu_btn_style"
+            android:textColor="#fff"
+            android:text="Menu1"/>
+
+        <Button
+            android:id="@+id/btn_menu2"
+            style="@style/menu_btn_style"
+            android:textColor="#fff"
+            android:text="Menu2" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+
+        <Button
+            android:id="@+id/btn_menu3"
+            style="@style/menu_btn_style"
+            android:textColor="#fff"
+            android:text="Menu3"/>
+
+            <Button
+            android:id="@+id/btn_menu4"
+            style="@style/menu_btn_style"
+                android:textColor="#fff"
+            android:text="Menu4"/>
+
+    </LinearLayout>
+
+</LinearLayout>

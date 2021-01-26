@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_settings"
+        android:title="Settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_settings_24">
+
+        <menu>
+            <item
+                android:id="@+id/menu_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/menu_refresh"
+                android:title="Refresh" />
+
+            <item
+                android:id="@+id/menu_delete"
+                android:title="Delete" >
+
+                <menu>
+                    <item
+                        android:id="@+id/delete_all"
+                        android:title="Delete all" />
+                    <item
+                        android:id="@+id/delete_selected"
+                        android:title="Delete selected" />
+
+                    <item
+                        android:id="@+id/delete_non_selected"
+                        android:title="Delete non selected" />
+                </menu>
+            </item>
+
+        </menu>
+    </item>
+
+</menu>

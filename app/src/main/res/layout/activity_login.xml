@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authentification.RegistrationForm"
+    android:paddingHorizontal="10dp"
+    android:orientation="vertical"
+    android:background="#669933"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="295dp"
+        android:src="@drawable/avocado_logo"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Login Form"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter email"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/ET_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Submit"
+        style="@style/btn_back"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        />
+
+</LinearLayout>
